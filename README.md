@@ -12,53 +12,80 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Internet Information Services (IIS)
 
-<h2>Operating Systems Used </h2>
+<h2>Operating Systems Used</h2>
 
 - Windows 10</b> (21H2)
 
 <h2>List of Prerequisites</h2>
 
-- Created database for ticketing system
-- Roles & Permissions 
-- Created a (SLA) service level agreement plan
-- Item 4
-- Item 5
+- Create and Set Up Azure Virtual Machine (VM)
+- Install IIS and Required Components 
+- Configure IIS and PHP for osTicket
+- Configure osTicket and MySQL Database
+- Finalize Installation and Secure Setup
 
 <h2>Installation Steps</h2>
-
-![image](https://github.com/user-attachments/assets/6e6ad9a1-0cc1-4210-919c-74e9bb134618)
-
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<mark>Create and Set Up Azure Virtual Machine</mark>
+
+Purpose: Provides a dedicated environment to host osTicket.
+
+Deploy a Windows 10 VM on Azure with 4 vCPUs to ensure smooth performance.
+Set up login credentials for remote access.
+Use Remote Desktop (RDP) to connect to the VM and begin installations.
+</p>
+
+![image](https://github.com/user-attachments/assets/2769febd-c07c-4892-87b9-435547a4f2fb)
+
+
+<br />
+<p>
+  
+<mark>Install IIS and Required Components</mark>
+
+The purpose of this is that it sets up the web server and necessary software for osTicket.
+
+Enable IIS (Internet Information Services) with CGI support to run PHP applications.
+Install PHP Manager and Rewrite Module to manage PHP settings and enable URL rewriting.
+Set up PHP 7.3.8 in C:\PHP for handling PHP-based scripts.
+Install Visual C++ Redistributable and MySQL 5.5.62, which are required for the database.
 </p>
 <br />
 
-![image](https://github.com/user-attachments/assets/5f624a23-1239-4cc9-8475-5c937452456f)
+[Image Place Holder]
+
+<mark>Configure IIS and PHP for osTicket</mark>
+
+[Image Place Holder]
+
+Open IIS as an administrator and register PHP (php-cgi.exe).
+Restart IIS to apply changes.
+Extract osTicket files into C:\inetpub\wwwroot\osTicket, making it accessible via the web server.
+Reload IIS to recognize the new site and verify accessibility in a web browser.
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  
+<mark>Configure osTicket and MySQL Database</mark>
 
-![image](https://github.com/user-attachments/assets/0e7b9e2a-7816-4963-abd0-b24ea9a01a2f)
-![image](https://github.com/user-attachments/assets/b61340f0-d174-47cf-8584-541d7bed5ffe)
-![image](https://github.com/user-attachments/assets/fbc226bb-827d-4389-814f-adbb0e2f2c3e)
+[Image Place Holder]
 
-<h2>Created Roles & Permissions</h2>
-
-![image](https://github.com/user-attachments/assets/b97ece0f-6f30-458d-89d3-3cb8705e9b7d)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Purpose: Sets up the database and configures osTicket’s backend.
+Enable required PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll) for full functionality.
+Rename and set permissions on ost-config.php to store osTicket settings securely.
+Install HeidiSQL, a database management tool, and create a new MySQL database for osTicket.
 <p>
-<h2>Created Help Topics</h2>
 
-![image](https://github.com/user-attachments/assets/869a82d3-2369-43c0-9d0e-e0fde0459933)
+<mark>Finalize Installation and Secure Setup</mark>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-<p>
+Purpose: Completes the installation and applies security measures.
+
+Finish osTicket setup in the browser, linking it to the MySQL database.
+Access the admin portal at http://localhost/osTicket/scp/login.php to manage tickets.
+Secure the installation by deleting the setup directory and setting read-only permissions on ost-config.php to prevent unauthorized changes.
+  
 <br />
