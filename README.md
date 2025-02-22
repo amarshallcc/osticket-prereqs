@@ -40,8 +40,7 @@ Set up login credentials for remote access.
 Use Remote Desktop (RDP) to connect to the VM and begin installations.
 </p>
 
-![image](https://github.com/user-attachments/assets/2769febd-c07c-4892-87b9-435547a4f2fb)
-
+[Image Place Holder]
 
 <br />
 <p>
@@ -74,13 +73,15 @@ Reload IIS to recognize the new site and verify accessibility in a web browser.
 
 [Image Place Holder]
 
-Purpose: Sets up the database and configures osTicket’s backend.
+Purpose: To set up the database and configure osTicket’s backend.
 Enable required PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll) for full functionality.
 Rename and set permissions on ost-config.php to store osTicket settings securely.
 Install HeidiSQL, a database management tool, and create a new MySQL database for osTicket.
 <p>
 
 <mark>Finalize Installation and Secure Setup</mark>
+
+![image](https://github.com/user-attachments/assets/2769febd-c07c-4892-87b9-435547a4f2fb)
 
 Purpose: Completes the installation and applies security measures.
 
