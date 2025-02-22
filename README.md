@@ -28,6 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <strong><mark>Create and Set Up Azure Virtual Machine</mark></strong>
 
 - ### [YouTube: Setup Virtual Machine](https://www.youtube.com/watch?v=rKVj3tpPpmo)
+[No sound]
 
 First we will create a virtual machine, which provides a dedicated environment to host osTicket.
 
