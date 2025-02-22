@@ -5,11 +5,6 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Computer)
@@ -33,7 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <mark>Create and Set Up Azure Virtual Machine</mark>
 
-[![VM Setup Up](https://img.youtube.com/vi/rKVj3tpPpmo.jpg)](https://www.youtube.com/watch?v=rKVj3tpPpmo)
+- ### [YouTube:Setup Virtual Machine][(https://www.youtube.com/watch?v=rKVj3tpPpmo]
 
 Purpose: Provides a dedicated environment to host osTicket.
 
@@ -41,13 +36,13 @@ Deploy a Windows 10 VM on Azure with 4 vCPUs to ensure smooth performance.
 Set up login credentials for remote access.
 Use Remote Desktop (RDP) to connect to the VM and begin installations.
 </p>
-
-[Image Place Holder]
-
 <br />
 <p>
   
 <mark>Install IIS and Required Components</mark>
+
+![image](https://github.com/user-attachments/assets/c0a67b31-ea84-43b0-aa5c-5f8b58d6a74e)
+
 
 The purpose of this is that it sets up the web server and necessary software for osTicket.
 
@@ -58,22 +53,26 @@ Install Visual C++ Redistributable and MySQL 5.5.62, which are required for the 
 </p>
 <br />
 
-[Image Place Holder]
+![Install IIS image](https://github.com/user-attachments/assets/655db479-c8d2-44cf-8207-a6b16e20e02f)
+
+
+![Install CGI](https://github.com/user-attachments/assets/883e8a75-9e43-4d16-9608-12c68e991cc7)
+
 
 <mark>Configure IIS and PHP for osTicket</mark>
-
-[Image Place Holder]
 
 Open IIS as an administrator and register PHP (php-cgi.exe).
 Restart IIS to apply changes.
 Extract osTicket files into C:\inetpub\wwwroot\osTicket, making it accessible via the web server.
 Reload IIS to recognize the new site and verify accessibility in a web browser.
 
+https://github.com/user-attachments/assets/db657d6a-3dee-4b8f-96cb-82c670f6cd11
+
 <p>
   
 <mark>Configure osTicket and MySQL Database</mark>
 
-[Image Place Holder]
+https://github.com/user-attachments/assets/33760f65-f25c-41d8-bea1-446e4c803493
 
 Purpose: To set up the database and configure osTicket’s backend.
 Enable required PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll) for full functionality.
