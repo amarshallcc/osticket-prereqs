@@ -33,6 +33,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 <mark>Create and Set Up Azure Virtual Machine</mark>
 
+[![VM Setup Up](https://img.youtube.com/vi/rKVj3tpPpmo.jpg)](https://www.youtube.com/watch?v=rKVj3tpPpmo)
+
 Purpose: Provides a dedicated environment to host osTicket.
 
 Deploy a Windows 10 VM on Azure with 4 vCPUs to ensure smooth performance.
