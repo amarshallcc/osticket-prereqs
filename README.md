@@ -25,8 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 </p>
-<p>
-<mark>Create and Set Up Azure Virtual Machine</mark>
+<strong><mark>Create and Set Up Azure Virtual Machine</mark></strong>
 
 - ### [YouTube:Setup Virtual Machine][(https://www.youtube.com/watch?v=rKVj3tpPpmo]
 
@@ -38,8 +37,10 @@ Use Remote Desktop (RDP) to connect to the VM and begin installations.
 </p>
 <br />
 <p>
-  
-<mark>Install IIS and Required Components</mark>
+
+---
+
+<strong><mark>Install IIS and Required Components</mark></strong>
 
 ![image](https://github.com/user-attachments/assets/c0a67b31-ea84-43b0-aa5c-5f8b58d6a74e)
 
@@ -58,8 +59,9 @@ Install Visual C++ Redistributable and MySQL 5.5.62, which are required for the 
 
 ![Install CGI](https://github.com/user-attachments/assets/883e8a75-9e43-4d16-9608-12c68e991cc7)
 
+---
 
-<mark>Configure IIS and PHP for osTicket</mark>
+<strong><mark>Configure IIS and PHP for osTicket</mark></strong>
 
 Open IIS as an administrator and register PHP (php-cgi.exe).
 Restart IIS to apply changes.
@@ -69,8 +71,10 @@ Reload IIS to recognize the new site and verify accessibility in a web browser.
 https://github.com/user-attachments/assets/db657d6a-3dee-4b8f-96cb-82c670f6cd11
 
 <p>
-  
-<mark>Configure osTicket and MySQL Database</mark>
+
+---
+
+<strong><mark>Configure osTicket and MySQL Database</mark></strong>
 
 https://github.com/user-attachments/assets/33760f65-f25c-41d8-bea1-446e4c803493
 
@@ -80,7 +84,9 @@ Rename and set permissions on ost-config.php to store osTicket settings securely
 Install HeidiSQL, a database management tool, and create a new MySQL database for osTicket.
 <p>
 
-<mark>Finalize Installation and Secure Setup</mark>
+---
+
+</strong><mark>Finalize Installation and Secure Setup</mark></strong>
 
 ![image](https://github.com/user-attachments/assets/2769febd-c07c-4892-87b9-435547a4f2fb)
 
@@ -91,3 +97,5 @@ Access the admin portal at http://localhost/osTicket/scp/login.php to manage tic
 Secure the installation by deleting the setup directory and setting read-only permissions on ost-config.php to prevent unauthorized changes.
   
 <br />
+
+---
