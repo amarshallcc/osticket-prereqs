@@ -81,6 +81,9 @@ Rename and set permissions on ost-config.php to store osTicket settings securely
 Install HeidiSQL, a database management tool, and create a new MySQL database for osTicket.
 <p>
 
+![image](https://github.com/user-attachments/assets/26586eb5-58eb-4546-a50d-2ef512a17736)
+
+
 ---
 
 </strong><mark>Finalize Installation and Secure Setup</mark></strong>
