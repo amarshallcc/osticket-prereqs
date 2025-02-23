@@ -74,6 +74,9 @@ https://github.com/user-attachments/assets/db657d6a-3dee-4b8f-96cb-82c670f6cd11
 https://github.com/user-attachments/assets/33760f65-f25c-41d8-bea1-446e4c803493
 
 To set up the database and configure osTicket’s backend we will then enable the required PHP extensions (php_imap.dll, php_intl.dll, php_opcache.dll) for full functionality.
+
+![image](https://github.com/user-attachments/assets/55b313b6-bd12-4584-98a8-df5dc6292c2c)
+
 Rename and set permissions on ost-config.php to store osTicket settings securely.
 Install HeidiSQL, a database management tool, and create a new MySQL database for osTicket.
 <p>
